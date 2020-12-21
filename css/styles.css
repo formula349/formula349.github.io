@@ -10156,3 +10156,37 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.pricing-img {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(52,58,64, 0.7) 0%, rgba(52,58,64, 0.9) 100%), url("../assets/img/austin.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.pricing-img h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  .pricing-img {
+    padding-top: 4.5rem;
+  }
+
+  .pricing-img p {
+    font-size: 1.15rem;
+  }
+
+  .pricing-img h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pricing-img h1 {
+    font-size: 3.5rem;
+  }
+}
