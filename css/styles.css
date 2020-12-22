@@ -10025,7 +10025,14 @@ svg.logo .p2 {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #212529;
-  fill: rgba(255, 255, 255, 0.7);
+  fill: #212529;
+}
+#mainNav .navbar-brand svg.logo .p1 {
+    color: #212529;
+    fill: #212529;
+}
+#mainNav .navbar-brand svg.logo .p2 {
+    fill: var(--orange);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -10041,13 +10048,19 @@ svg.logo .p2 {
   color: var(--orange) !important;
 }
 svg.logo { height: 50px; }
+@media (max-width: 460px) {
+  .navbar-toggler { display: none; }
+}
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
     background-color: transparent;
   }
-  #mainNav .navbar-brand {
+  #mainNav .navbar-brand,
+  #mainNav .navbar-brand svg.logo .p1,
+  #mainNav .navbar-brand svg.logo .p2 {
     color: rgba(255, 255, 255, 0.7);
+    fill: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
