@@ -10047,6 +10047,26 @@ svg.logo .p2 {
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: var(--orange) !important;
 }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 20px solid #fff;
+  margin-left: 85px;
+}
+.profile {
+  margin: 1em;
+  text-align: left;
+  display: flex;
+}
+.profile-name {
+  margin-left: 1em;
+  left: 100px;
+  font-style: italic;
+}
+
 svg.logo { height: 50px; }
 @media (max-width: 460px) {
   .navbar-toggler { display: none; }
