@@ -10066,6 +10066,7 @@ svg.logo .p2 {
   left: 100px;
   font-style: italic;
 }
+.testimony-post { text-align: left; }
 
 svg.logo { height: 50px; }
 @media (max-width: 460px) {
